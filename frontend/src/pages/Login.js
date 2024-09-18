@@ -21,7 +21,7 @@ const Login = () => {
 
   async function handleSubmit(event) {
     event.preventDefault();
-    const data = await fetch("https://crypto-tracker-878f.onrender.com, {
+    const data = await fetch("https://crypto-tracker-878f.onrender.com", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
